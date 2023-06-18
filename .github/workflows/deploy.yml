@@ -29,7 +29,7 @@ jobs:
       uses: airvzxf/ftp-deployment-action@latest
       with:
         server: ftp.barmeaashish.com.np
-        username: ${{ secrets.FTP_USERNAME }}
+        user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local_dir: "./public_html"
       
