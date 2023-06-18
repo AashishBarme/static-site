@@ -26,7 +26,7 @@ jobs:
 
     steps:
     - name: Sync files
-      uses: airvzxf/ftp-deployment-action@latest
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.barmeaashish.com.np
         user: ${{ secrets.FTP_USERNAME }}
