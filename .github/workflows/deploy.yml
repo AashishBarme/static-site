@@ -11,12 +11,12 @@ jobs:
 
   web-deploy:
     name: Deploy
-    runs-on: github
+    runs-on: ubuntu-latest
 
     steps:
     - name: Get latest code
       uses: actions/checkout@v1
-      
+
     - name: Sync files
       uses: airvzxf/ftp-deployment-action@latest
       with:
