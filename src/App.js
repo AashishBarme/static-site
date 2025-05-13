@@ -5,9 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Hello There, It's me Aashish Barme.</h2>
-        <p>
-          Guy who loves Christ, Coffee and Code.
-        </p>
+        <p>........</p>
         <p><span><a className='social-icon' href='https://www.facebook.com/AashishJacobBarme'>
         <i class="fa fa-facebook-official"></i>
           </a></span>
